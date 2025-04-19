@@ -36,14 +36,13 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 <h2>🤖 Trained Models & Evaluation</h2>
 
 <p align="center">
-  <img src="Comparision of all ML Models.png" alt="Model Comparison Chart" width="700"/>
+  <img src="Summary of all ML Models.png" alt="Model Comparison Chart" width="700"/>
 </p>
-![<h2>🤖 Trained Models & Evaluation</h2>](Screenshot 2025-04-19 204720.png)
 
 <h2>📉 Model Performance Comparison Chart</h2>
 
 <p align="center">
-  <img src="C:\Users\ankip\Pictures\Screenshots\Screenshot 2025-04-19 204337.png" alt="Model Comparison Chart" width="700"/>
+  <img src="Comparision of all ML Models.png" alt="Model Comparison Chart" width="700"/>
 </p>
 
 <h2>🏆 Best Performing Model: Random Forest</h2>
@@ -86,37 +85,3 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 <h2>👨‍💻 Author</h2>
 <p>🚀 <b>Aradhana Patra</b> | 🌍 GitHub: <a href="https://github.com/aradhana-56">GitHub</a> | 🔗 LinkedIn: <a href="https://www.linkedin.com/in/aradhana-patra-8694642b5">LinkedIn</a></p>
 
-
-
-
-<h3>🔹 Logistic Regression</h3>
-<ul>
-  <li><b>Accuracy:</b> 97.41%</li>
-  <li><b>Recall:</b> 0.91</li>
-  <li><b>F1-Score:</b> 0.10</li>
-  <li><b>Precision:</b> 0.057</li>
-</ul>
-
-<h3>🔹 Random Forest</h3>
-<ul>
-  <li><b>Accuracy:</b> 99.9%</li>
-  <li><b>Recall:</b> 0.82</li>
-  <li><b>F1-Score:</b> 0.83</li>
-  <li><b>Precision:</b> 0.85</li>
-</ul>
-
-<h3>🔹 K-Nearest Neighbors (KNN)</h3>
-<ul>
-  <li><b>Accuracy:</b> 99.78%</li>
-  <li><b>Recall:</b> 0.87</li>
-  <li><b>F1-Score:</b> 0.58</li>
-  <li><b>Precision:</b> 0.43</li>
-</ul>
-
-<h3>🔹 Decision Tree</h3>
-<ul>
-  <li><b>Accuracy:</b> 99.72%</li>
-  <li><b>Recall:</b> 0.87</li>
-  <li><b>F1-Score:</b> 0.58</li>
-  <li><b>Precision:</b> 0.43</li>
-</ul>
