@@ -36,7 +36,7 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 <h2>🤖 Trained Models & Evaluation</h2>
 
 <p align="center">
-  <img src="C:\Users\ankip\Pictures\Screenshots\Screenshot 2025-04-19 204720.png" alt="Model Comparison Chart" width="700"/>
+  <img src="Comparision of all ML Models.png" alt="Model Comparison Chart" width="700"/>
 </p>
 ![<h2>🤖 Trained Models & Evaluation</h2>](Screenshot 2025-04-19 204720.png)
 
