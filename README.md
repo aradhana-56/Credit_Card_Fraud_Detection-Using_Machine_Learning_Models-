@@ -35,9 +35,20 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 
 <h2>🤖 Trained Models & Evaluation</h2>
 
-<p align="center">
-  <img src="Summary of all ML Models.png" alt="Model Comparison Chart" width="700"/>
-</p>
+<ul>
+  <li><b>Model:</b></li>
+  <ul>
+    <li>Logistic Regression</li>
+    <li>Random Forest</li>
+    li>KNN</li>
+    <li>Decision Tree</li>
+  </ul>
+  <li><b>Evaluation Metrics:</b></li>
+  <ul>
+    <li>Accuracy, Precision, Recall, F1-score</li>
+    <li>Confusion Matrix, ROC Curve</li>
+  </ul>
+</ul>
 
 <h2>📉 Model Performance Comparison Chart</h2>
 
