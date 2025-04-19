@@ -1,11 +1,10 @@
-
+<h1 align="center">🚀 Credit Card Fraud Detection using Machine Learning Models</h1>
 A project to detect the Credit Card Fraud Detection using Machine Learning Models like- Logistic Regression, Decision Tree, KNN and Random Forest Model.
 
-<h1 align="center">🚀 Credit Card Fraud Detection using Machine Learning Models</h1>
 <h2>📌 Project Overview</h2>
 <p>
-  Credit card fraud detection is crucial for financial security. This project applies <b>Logistic Regression</b> to classify transactions as fraudulent or legitimate.
-  Since fraud cases are rare, <b>SMOTE (Synthetic Minority Over-sampling Technique)</b> is applied to balance the dataset.
+  Credit card fraud detection is crucial for financial security. This project uses multiple Machine Learning models to classify transactions as fraudulent or legitimate.
+  Due to class imbalance (fraud cases are rare), <b>SMOTE (Synthetic Minority Over-sampling Technique)</b> is applied to balance the dataset.
 </p>
 
 <h2>📂 Dataset Information</h2>
@@ -24,7 +23,8 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 <h3>2️⃣ Download the Dataset</h3>
 <p>Ensure <code>creditcard.csv</code> is placed in the working directory.</p>
 
-<h3>3️⃣ Run the Model</h3>
+<h3>3️⃣ Run the Models</h3>
+<p>The script includes Logistic Regression, Random Forest, Decision Tree, and K-Nearest Neighbors models.</p>
 
 <h2>📊 Data Preprocessing & Feature Engineering</h2>
 <ul>
@@ -33,50 +33,50 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
   <li><b>Train-Test Split:</b> 80% training, 20% testing</li>
 </ul>
 
-<h2>🤖 Model Training - Logistic Regression</h2>
+<h2>🤖 Trained Models & Evaluation</h2>
+
+<h3>🔹 Logistic Regression</h3>
 <ul>
-  <li><b>Model:</b> Logistic Regression</li>
-  <li><b>Evaluation Metrics:</b></li>
-  <ul>
-    <li>Accuracy, Precision, Recall, F1-score</li>
-    <li>Confusion Matrix, ROC Curve</li>
-    <li>Mean Absolute Error (MAE), Mean Squared Error (MSE)</li>
-  </ul>
+  <li><b>Accuracy:</b> 97.41%</li>
+  <li><b>Recall:</b> 0.91</li>
+  <li><b>F1-Score:</b> 0.10</li>
+  <li><b>Precision:</b> 0.057</li>
 </ul>
 
-<h2>📈 Model Performance</h2>
-<table>
-  <tr>
-    <th>Metric</th>
-    <th>Value</th>
-  </tr>
-  <tr>
-    <td>Accuracy</td>
-    <td><b>95%</b></td>
-  </tr>
-  <tr>
-    <td>Precision</td>
-    <td><b>0.97</b></td>
-  </tr>
-  <tr>
-    <td>Recall</td>
-    <td><b>0.92</b></td>
-  </tr>
-  <tr>
-    <td>AUC-ROC</td>
-    <td><b>0.95</b></td>
-  </tr>
-  <tr>
-    <td>MAE</td>
-    <td><b>0.04</b></td>
-  </tr>
-  <tr>
-    <td>MSE</td>
-    <td><b>0.04</b></td>
-  </tr>
-</table>
+<h3>🔹 Random Forest</h3>
+<ul>
+  <li><b>Accuracy:</b> 99.9%</li>
+  <li><b>Recall:</b> 0.82</li>
+  <li><b>F1-Score:</b> 0.83</li>
+  <li><b>Precision:</b> 0.85</li>
+</ul>
 
-<h2>🔹 Confusion Matrix</h2>
+<h3>🔹 K-Nearest Neighbors (KNN)</h3>
+<ul>
+  <li><b>Accuracy:</b> 99.78%</li>
+  <li><b>Recall:</b> 0.87</li>
+  <li><b>F1-Score:</b> 0.58</li>
+  <li><b>Precision:</b> 0.43</li>
+</ul>
+
+<h3>🔹 Decision Tree</h3>
+<ul>
+  <li><b>Accuracy:</b> 99.72%</li>
+  <li><b>Recall:</b> 0.87</li>
+  <li><b>F1-Score:</b> 0.58</li>
+  <li><b>Precision:</b> 0.43</li>
+</ul>
+
+<h2>🏆 Best Performing Model: Random Forest</h2>
+<ul>
+  <li><b>Accuracy:</b> <b>99.9%</b></li>
+  <li><b>Recall:</b> <b>0.82</b></li>
+  <li><b>F1-Score:</b> <b>0.83</b></li>
+  <li><b>Precision:</b> <b>0.85</b></li>
+  <li><b>AUC-ROC:</b> <b>0.97</b></li>
+</ul>
+
+<h2>📉 Confusion Matrix (Sample Format)</h2>
 <table>
   <tr>
     <th></th>
@@ -96,7 +96,7 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 </table>
 
 <h2>📦 Model Deployment</h2>
-
+<p>Model can be saved using <code>joblib</code> and deployed in a Flask or Streamlit web application.</p>
 
 <h2>📚 References</h2>
 <ul>
@@ -105,5 +105,4 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 </ul>
 
 <h2>👨‍💻 Author</h2>
-<p>🚀 <b>Aradhana Patra</b> | 🌍 GitHub: <a href="https://github.com/aradhana-56">GitHub</a> |  🔗 LinkedIn: <a href="https://www.linkedin.com/in/aradhana-patra-8694642b5">LinkedIn</a></p>
-
+<p>🚀 <b>Aradhana Patra</b> | 🌍 GitHub: <a href="https://github.com/aradhana-56">GitHub</a> | 🔗 LinkedIn: <a href="https://www.linkedin.com/in/aradhana-patra-8694642b5">LinkedIn</a></p>
