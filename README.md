@@ -40,7 +40,7 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
   <ul>
     <li>Logistic Regression</li>
     <li>Random Forest</li>
-    li>KNN</li>
+    <li>KNN</li>
     <li>Decision Tree</li>
   </ul>
   <li><b>Evaluation Metrics:</b></li>
